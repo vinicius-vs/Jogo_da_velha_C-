@@ -135,7 +135,7 @@ int main()
 
 	      if ( cont ==9)
 	      {
-		 jogo empatado!
+		cout<<"jogo empatado!";
 	      } else
 	      {	      
 	      cout<<"Parabéns jogador "<<playing<<", você venceu!\n\n";
