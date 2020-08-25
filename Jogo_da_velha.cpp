@@ -109,7 +109,7 @@ int main()
 		}
 	  } while ( played==true);
 
- cout<<"####### JOGO DA VELHA #######\n\n";
+           cout<<"####### JOGO DA VELHA #######\n\n";
              for (int i=0;i<TAM;i++)
                 {
 
@@ -133,8 +133,13 @@ int main()
                 }
               cout<<endl<<endl;
 
+	      if ( cont ==9)
+	      {
+		 jogo empatado!
+	      } else
+	      {	      
 	      cout<<"Parabéns jogador "<<playing<<", você venceu!\n\n";
-
+	      }
 
 
         return 0;
